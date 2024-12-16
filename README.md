@@ -1,6 +1,6 @@
-# Deploy a Kubernetes Application into AWS EKS using Fargate
+# Deploy an Application on AWS EKS with Fargate and ALB Controller
 
-This guide outlines the steps to deploy a Kubernetes application into AWS Elastic Kubernetes Service (EKS) using Fargate.
+This guide provides a detailed walkthrough for deploying a Kubernetes application into AWS Elastic Kubernetes Service (EKS) using Fargate. It also covers configuring the AWS Load Balancer Controller (ALB Controller) to manage load balancers for your Kubernetes services.
 
 ---
 
