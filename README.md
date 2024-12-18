@@ -1,6 +1,6 @@
 # Deploying a 2048 Game on AWS EKS Fargate with Load Balancing
 
-This project provides a detailed walkthrough for deploying a Kubernetes application into AWS Elastic Kubernetes Service (EKS) using Fargate. It also covers configuring the AWS Load Balancer Controller (ALB Controller) to manage load balancers for your Kubernetes services.
+This project provides a detailed walkthrough for how to deploy the classic 2048 game on AWS EKS using AWS Fargate for a serverless experience. It also covers configuring the AWS Load Balancer Controller (ALB Controller) to manage load balancers for your Kubernetes services.
 
 ![image](https://github.com/user-attachments/assets/fd35a0ba-3246-441b-8e52-48330327fa90)
 
@@ -40,8 +40,6 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes-sigs/aws-load-bala
 ---
 
 ## 4. Configure IAM OIDC Provider and Policy
-
-The AWS Load Balancer Controller manages AWS Elastic Load Balancers for Kubernetes clusters. Proper IAM configuration is essential for enabling the controller to interact with AWS services securely.
 
 ```bash
 # Now Associate an IAM OIDC provider with your cluster.
